@@ -26,9 +26,9 @@ import java.util.Scanner;
 public class MyBatisPlusGenerator {
 
 
-private static String module="nacosProvider";
+private static String module="";
         private static String packages = "com.example.demo";
-        private static String url = "jdbc:mysql://127.0.0.1:3306/movie?serverTimezone=Asia/Shanghai&useSSL=false";
+        private static String url = "jdbc:mysql://localhost:3306/movie?serverTimezone=Asia/Shanghai&useSSL=false";
         private static String driverName = "com.mysql.cj.jdbc.Driver";
         private static String user = "root";
         private static String password = "0408myhMYH+";
